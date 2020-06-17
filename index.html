@@ -17,12 +17,37 @@
   <body>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h2>Оставьте свои данные, мы вам перезвоним</h2>
-        <input type="text" name="name" id="name" />
-        <label for="name">Имя</label>
-        <button class="close" data-modal-close>
-          <img src="./image/icons/close.svg" alt="" class="close-icon" />
-        </button>
+        <form class="form">
+          <h2>Оставьте свои данные, мы вам перезвоним</h2>
+          <div class="form-field">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" class="input" />
+          </div>
+          <div class="form-field">
+            <label for="number">Телефон</label>
+            <input type="number" name="number" id="number" class="input" />
+          </div>
+          <div class="form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" class="input" />
+          </div>
+          <div class="form-field-text">
+            <label for="comment"></label>
+            <textarea  name="comment" id="comment" rows="7" placeholder="Комментарий"></textarea>
+            </textarea>
+          </div>
+          <div class="form-field">
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy" class="policy-text">Соглашаюсь с рассылкой и принимаю <a href="" class="policy-rules">Условия договора</a></label>
+            
+         </div>
+            <div class="form-field-submit">
+              <button type="submit" class="button-submit">Отправить</button>
+            </div>
+          <button class="close" data-modal-close>
+            <img src="./image/icons/close.svg" alt="" class="close-icon" />
+          </button>
+        </form>
       </div>
     </div>
     <header>

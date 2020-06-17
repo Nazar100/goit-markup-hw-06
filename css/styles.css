@@ -760,8 +760,8 @@ footer {
   z-index: 3;
 }
 .modal {
-  height: 530px;
-  width: 580px;
+  height: 750px;
+  width: 450px;
   position: absolute;
   background-color: var(--background);
   top: 50%;
@@ -789,7 +789,7 @@ footer {
   width: 30px;
   height: 30px;
   position: absolute;
-  transform: translate(310px, -105px);
+  transform: translate(250px, -25px);
   background-color: #ffffff;
   border-radius: 50%;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -805,4 +805,51 @@ footer {
 
 .close-icon:hover {
   transform: scale(1.4, 1.4);
+}
+.input {
+  width: 370px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.form-field {
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+.form-field-text {
+  margin: 0;
+}
+.form-field-text textarea {
+  width: 370px;
+  padding: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  padding: 12px 16px;
+}
+.policy-text {
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #757575;
+}
+.policy-rules {
+  color: var(--add-text);
+}
+.button-submit {
+  display: inline-block;
+  color: var(--background);
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 1.88;
+  padding: 10px 55px;
+  border: transparent;
+  background-color: var(--add-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-field-submit {
+  display: inline-block;
+  margin-left: 83px;
 }
