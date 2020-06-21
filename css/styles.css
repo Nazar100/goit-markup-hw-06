@@ -567,10 +567,10 @@ footer {
   margin-left: 10px;
 }
 .networks-icon {
-  --color1: #afb1b8;
+  fill: #afb1b8;
   margin-left: auto;
   margin-right: auto;
-  transition: --color1 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .linkedin {
   padding-top: 9px;
@@ -589,7 +589,7 @@ footer {
   background-color: var(--add-text);
 }
 .networks-item-teem:hover .networks-icon {
-  --color1: #ffffff;
+  fill: #ffffff;
 }
 .clients-logo {
   width: 170px;
@@ -624,6 +624,7 @@ footer {
   transform: scale(1.5, 1.5);
 }
 .footer-networks-icon {
+  fill: var(--background);
   background-color: #484957;
   border-radius: 50%;
   width: 44px;
