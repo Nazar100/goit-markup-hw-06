@@ -570,8 +570,7 @@ footer {
   --color1: #afb1b8;
   margin-left: auto;
   margin-right: auto;
-
-  transition: --color1 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: --color1 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .linkedin {
   padding-top: 9px;
