@@ -968,5 +968,5 @@ footer {
 }
 .checkbox:checked ~ .policy-text-item {
   transition: transform 500ms linear;
-  transform: translateX(10px) scale(1.05);
+  transform: scale(1.07) translateX(7px);
 }
